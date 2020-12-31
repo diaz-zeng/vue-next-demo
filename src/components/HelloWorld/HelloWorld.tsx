@@ -1,5 +1,7 @@
 import { defineComponent } from "vue";
-import style from './index.module.less'
+import style from './index.module.less';
+
+
 export default defineComponent({
     name: "HelloWorld",
     setup: () => {

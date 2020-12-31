@@ -1,13 +1,13 @@
-import { defineComponent } from "vue";
-import HelloWorld from './components/HelloWorld'
+import { defineComponent } from 'vue';
+import { RouterView } from 'vue-router';
 
 export default defineComponent({
-  name: "App",
-  setup() {
+  name: 'App',
+  setup: () => {
     return () => (
       <>
-        <HelloWorld />
-        <h1 class="title">hello world</h1>
-      </>)
-  }
-})
+        <RouterView />
+      </>
+    );
+  },
+});
